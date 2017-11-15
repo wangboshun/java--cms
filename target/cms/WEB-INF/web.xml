@@ -1,0 +1,61 @@
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+
+    <display-name>Archetype Created Web Application</display-name>
+
+    <!--springmvc-->
+    <listener>
+        <description>Spring容器加载监听器</description>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <context-param>
+        <description>设置Spring加载时的配置文件位置，默认位置在web-inf/lib下</description>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath*:spring/spring-mybatis.xml,classpath*:spring/spring-redis.xml</param-value>
+    </context-param>
+
+    <!--servlet映射-->
+    <servlet>
+        <servlet-name>cms</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:spring/spring-servlet.xml</param-value>
+        </init-param>
+
+        <multipart-config>
+            <max-file-size>5242880</max-file-size><!--上传单个文件的最大限制5MB -->
+            <max-request-size>20971520</max-request-size><!--请求的最大限制20MB，一次上传多个文件时一共的大小 -->
+            <file-size-threshold>0</file-size-threshold><!--当文件的大小超过临界值时将写入磁盘 -->
+        </multipart-config>
+
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>cms</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <!-- 自定义过滤器：FilterTest-->
+    <filter>
+        <filter-name>FilterTest</filter-name>
+        <filter-class>cms.filter.FilterTest</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>FilterTest</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <!--自定义logback.xml路径-->
+    <context-param>
+        <param-name>logbackConfigLocation</param-name>
+        <param-value>classpath:config/logback.xml</param-value>
+    </context-param>
+
+    <listener>
+        <listener-class>ch.qos.logback.ext.spring.web.LogbackConfigListener</listener-class>
+    </listener>
+
+</web-app>

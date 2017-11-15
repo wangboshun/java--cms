@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.3.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd">
+
+    <context:component-scan base-package="cms.core"></context:component-scan>
+    <context:component-scan base-package="cms.dao"></context:component-scan>
+    <context:component-scan base-package="cms.service"></context:component-scan>
+    <context:component-scan base-package="cms.controller"></context:component-scan>
+
+    <!-- Spring MVC不处理静态资源 -->
+    <mvc:default-servlet-handler/>
+
+    <!-- 支持mvc注解驱动 -->
+    <mvc:annotation-driven/>
+
+    <!--拦截器-->
+    <mvc:interceptors>
+        <bean name="handlertest" class="cms.handler.HandlerTest"/>
+        <!--指定controller-->
+        <mvc:interceptor>
+            <mvc:mapping path="/test.html"/>
+            <bean class="cms.handler.HandlerTest1"/>
+        </mvc:interceptor>
+
+    </mvc:interceptors>
+
+    <!--增加上传配置-->
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.support.StandardServletMultipartResolver"></bean>
+
+    <!-- 视图解析器 -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="internalResourceViewResolver">
+        <!-- 前缀 -->
+        <property name="prefix" value="/WEB-INF/view/"/>
+        <!-- 后缀 -->
+        <property name="suffix" value=".jsp"/>
+    </bean>
+</beans>
