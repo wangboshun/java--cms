@@ -23,18 +23,17 @@
 
     <!--拦截器-->
     <mvc:interceptors>
-        <bean name="handlertest" class="cms.handler.HandlerTest"/>
+        <bean name="interceptorTest" class="cms.interceptor.InterceptorTest"/>
         <!--指定controller-->
         <mvc:interceptor>
             <mvc:mapping path="/test.html"/>
-            <bean class="cms.handler.HandlerTest1"/>
+            <bean class="cms.interceptor.InterceptorTest1"/>
         </mvc:interceptor>
 
     </mvc:interceptors>
 
     <!--增加上传配置-->
-    <bean id="multipartResolver"
-          class="org.springframework.web.multipart.support.StandardServletMultipartResolver"></bean>
+    <bean id="multipartResolver" class="org.springframework.web.multipart.support.StandardServletMultipartResolver"></bean>
 
     <!-- 视图解析器 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="internalResourceViewResolver">

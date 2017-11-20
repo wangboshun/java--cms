@@ -1,4 +1,4 @@
-package cms.filter;
+package cms.filter.springmvc;
 
 import org.springframework.web.filter.OncePerRequestFilter;
 import javax.servlet.FilterChain;
@@ -12,8 +12,8 @@ public class FilterTest extends OncePerRequestFilter {
     protected void doFilterInternal(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, FilterChain filterChain) throws ServletException, IOException {
         httpServletRequest.setAttribute("filter", "filter");
 
-        System.out.println("OncePerRequestFilter           DispatcherServlet 视图渲染之前执行");
+        System.out.println("Spring Filter   OncePerRequestFilter   DispatcherServlet 视图渲染之前执行");
         filterChain.doFilter(httpServletRequest, httpServletResponse);
-        System.out.println("OncePerRequestFilter           DispatcherServlet 视图渲染之后执行");
+        System.out.println("Spring Filter   OncePerRequestFilter   DispatcherServlet 视图渲染之后执行");
     }
 }

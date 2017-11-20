@@ -9,7 +9,7 @@
 <body>
 test
 <h2>message:${message}</h2>
-<h2>handler:${handler}</h2>
+<h2>interceptor:${interceptor}</h2>
 <h2>filter:${filter}</h2>
 <c:forEach var="user" items="${list}">
     <tr>
