@@ -18,5 +18,11 @@ test
         <td><fmt:formatDate value="${user.create_time}" pattern="yyyy-MM-dd HH:mm:ss"/></td>
     </tr>
 </c:forEach>
+
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" id="file" multiple="multiple">
+    <input type="submit">
+</form>
+
 </body>
 </html>
