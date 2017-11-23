@@ -1,19 +1,13 @@
 package cms.controller;
 
 import cms.core.UserInfo;
-import org.apache.commons.io.FileUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.http.*;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
-import redis.clients.jedis.Jedis;
+import webbase.controller.ControllerBase;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -21,17 +15,7 @@ import java.io.*;
 import java.util.Date;
 import java.util.List;
 
-@Controller
-public class UserInfoController {
-
-    private static Logger log = LoggerFactory.getLogger(UserInfoController.class);
-
-    @Autowired
-    private Jedis jedis;
-
-    @Autowired
-    private RedisTemplate redisTemplate;
-
+public class UserInfoRestController extends ControllerBase {
     @Autowired
     private cms.service.UserInfoService userinfoservice;
 
@@ -39,8 +23,8 @@ public class UserInfoController {
     public String test1(Model model) {
         log.debug("----------------------test1----------------------");
 
-        jedis.set("jedis---test", "12345");
-        String str = jedis.get("jedis---test");
+        redis.set("jedis---test", "12345");
+        String str = redis.get("jedis---test");
 
         log.debug("----------------------jedis---test：----------------------" + str);
 

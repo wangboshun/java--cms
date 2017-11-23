@@ -7,22 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc7fd890-b6f1-419d-86eb-f5a61cd6730f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/cms_war.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/weui/css/jquery-weui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/weui/css/jquery-weui.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/weui/css/weui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/weui/css/weui.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/weui/js/city-picker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/weui/js/city-picker.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/weui/js/fastclick.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/weui/js/jquery-weui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/weui/js/jquery-weui.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/weui/js/swiper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/weui/js/swiper.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_xiaoleilu_hutool_all_3_2_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/org/WebBase/Controller/ControllerBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/org/WebBase/Controller/RestControllerBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/org/cms/utils/http/HttpHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/org/wechat/controller/OauthRestController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/org/wechat/controller/UserInfoRestController.java" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/cms_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/cms_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/neditor.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/ueditor.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cms.iml" afterPath="$PROJECT_DIR$/cms.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/cms/controller/UserInfoController.java" afterPath="$PROJECT_DIR$/src/main/org/cms/controller/UserInfoRestController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/org/cms/interceptor/InterceptorTest.java" afterPath="$PROJECT_DIR$/src/main/org/cms/interceptor/InterceptorTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-servlet.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-servlet.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,123 +35,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <file leaf-file-name="UserInfoRestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/org/cms/controller/UserInfoRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="60" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+            <state relative-caret-position="111">
+              <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <file leaf-file-name="OauthRestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/org/wechat/controller/OauthRestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HtmlUtil.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/xiaoleilu/hutool-all/3.2.1/hutool-all-3.2.1.jar!/com/xiaoleilu/hutool/http/HtmlUtil.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpUtil.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/xiaoleilu/hutool-all/3.2.1/hutool-all-3.2.1.jar!/com/xiaoleilu/hutool/http/HttpUtil.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoRestController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/org/wechat/controller/UserInfoRestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestControllerBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/org/webbase/controller/RestControllerBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/org/webbase/controller/ControllerBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/test.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInfoController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/org/cms/controller/UserInfoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="73" column="20" lean-forward="true" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery-weui.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/weui/css/jquery-weui.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weui.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/weui/css/weui.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery-weui.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/weui/js/jquery-weui.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1511164596000" expanded="true" signature="115989:116195" ph="..." />
-                <marker date="1511164596000" expanded="true" signature="116028:116177" ph="..." />
-                <marker date="1511164596000" expanded="true" signature="148298:148484" ph="..." />
-                <marker date="1511164596000" expanded="true" signature="148333:148470" ph="..." />
-                <marker date="1511164596000" expanded="true" signature="148554:149137" ph="..." />
-                <marker date="1511164596000" expanded="true" signature="148662:149103" ph="..." />
-                <marker date="1511164596000" expanded="true" signature="148719:148772" ph="..." />
-                <marker date="1511164596000" expanded="true" signature="148811:149085" ph="..." />
-                <marker date="1511164596000" expanded="true" signature="149213:149800" ph="..." />
-                <marker date="1511164596000" expanded="true" signature="149321:149766" ph="..." />
-                <marker date="1511164596000" expanded="true" signature="149378:149431" ph="..." />
-                <marker date="1511164596000" expanded="true" signature="149470:149748" ph="..." />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="swiper.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/weui/js/swiper.js">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="3789" column="34" lean-forward="true" selection-start-line="3789" selection-start-column="34" selection-end-line="3789" selection-end-column="34" />
-              <folding>
-                <marker date="1511164596000" expanded="true" signature="176043:176850" ph="..." />
-                <marker date="1511164596000" expanded="true" signature="176087:176832" ph="..." />
-                <marker date="1511164596000" expanded="true" signature="176131:176397" ph="..." />
-                <marker date="1511164596000" expanded="true" signature="176203:176347" ph="..." />
-                <marker date="1511164596000" expanded="true" signature="176252:176323" ph="..." />
-                <marker date="1511164596000" expanded="true" signature="176434:176597" ph="..." />
-                <marker date="1511164596000" expanded="true" signature="176670:176812" ph="..." />
-              </folding>
+            <state relative-caret-position="239">
+              <caret line="249" column="33" lean-forward="false" selection-start-line="249" selection-start-column="33" selection-end-line="249" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fastclick.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/weui/js/fastclick.js">
+      <file leaf-file-name="hutool-all-3.2.1.pom" pinned="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/com/xiaoleilu/hutool-all/3.2.1/hutool-all-3.2.1.pom">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="152">
+              <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hutool-all-3.2.0.pom" pinned="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/com/xiaoleilu/hutool-all/3.2.0/hutool-all-3.2.0.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -172,9 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Listener</find>
-      <find>Listener HttpSe</find>
-      <find>HttpSessionTest</find>
       <find>HttpSessionListen</find>
       <find>sessionScope</find>
       <find>mmons-la</find>
@@ -202,6 +180,9 @@
       <find>jquery-1</find>
       <find>jquery</find>
       <find>nsition' in domLib.f</find>
+      <find>param</find>
+      <find>secret</find>
+      <find>openid</find>
     </findStrings>
     <replaceStrings>
       <replace>cms.utils.editor</replace>
@@ -218,20 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/org/cms/interceptor/InterceptorTest1.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/org/cms/listener/servlet/HttpSessionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/org/cms/exception/TestException.java" />
-        <option value="$PROJECT_DIR$/src/main/org/cms/exception/ExceptionBase.java" />
-        <option value="$PROJECT_DIR$/src/main/org/cms/servlet/TestServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/org/cms/exception/ExceptionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/test.jsp" />
-        <option value="$PROJECT_DIR$/src/main/org/cms/utils/editor/ActionEnter.java" />
-        <option value="$PROJECT_DIR$/src/main/org/cms/utils/editor/hunter/FileManager.java" />
-        <option value="$PROJECT_DIR$/src/main/org/cms/utils/editor/hunter/ImageHunter.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/org/cms/utils/editor/upload/BinaryUploader.java" />
         <option value="$PROJECT_DIR$/src/main/org/cms/utils/editor/upload/Base64Uploader.java" />
         <option value="$PROJECT_DIR$/src/main/org/cms/utils/editor/upload/StorageManager.java" />
@@ -251,7 +218,6 @@
         <option value="$PROJECT_DIR$/src/main/org/cms/utils/editor/ConfigManager.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/neditor/neditor.config.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/lib/neditor/config.json" />
-        <option value="$PROJECT_DIR$/src/main/org/cms/controller/UserInfoController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/lib/neditor/dialogs/map/map.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/lib/neditor/dialogs/internal.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/lib/neditor/neditor.all.js" />
@@ -269,6 +235,21 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/lib/ueditor/ueditor.parse.min.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/lib/ueditor/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/lib/weui/example/index.html" />
+        <option value="$PROJECT_DIR$/src/main/org/cms/interceptor/InterceptorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/org/cms/utils/http/HttpHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/org/wechat/controller/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/org/cms/controller/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-servlet.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/org/wechat/controller/OauthController.java" />
+        <option value="$PROJECT_DIR$/src/main/org/WebBase/SpringMvc/RestControllerBase.java" />
+        <option value="$PROJECT_DIR$/src/main/org/WebBase/SpringMvc/ControllerBase.java" />
+        <option value="$PROJECT_DIR$/src/main/org/WebBase/Controller/ControllerBase.java" />
+        <option value="$PROJECT_DIR$/src/main/org/webbase/controller/ControllerBase.java" />
+        <option value="$PROJECT_DIR$/src/main/org/cms/controller/UserInfoRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/org/wechat/controller/OauthRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/org/webbase/controller/RestControllerBase.java" />
+        <option value="$PROJECT_DIR$/src/main/org/wechat/controller/UserInfoRestController.java" />
       </list>
     </option>
   </component>
@@ -318,7 +299,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages ProjectPane="false" />
-      <showMembers />
+      <showMembers ProjectPane="false" />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages ProjectPane="true" />
@@ -330,8 +311,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -381,34 +360,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
               <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -417,8 +368,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
@@ -426,35 +376,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
@@ -533,18 +455,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="weui" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="swiper.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -563,59 +473,35 @@
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: com.xiaoleilu:hutool-all:3.2.1" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: com.xiaoleilu:hutool-all:3.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="hutool-all-3.2.1.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: com.xiaoleilu:hutool-all:3.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="hutool-all-3.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hutool" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: javax.servlet:javax.servlet-api:4.0.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: javax.servlet:javax.servlet-api:4.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="javax.servlet-api-4.0.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: javax.servlet:javax.servlet-api:4.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="javax.servlet-api-4.0.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: javax.servlet:javax.servlet-api:4.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="javax.servlet-api-4.0.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: com.xiaoleilu:hutool-all:3.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="hutool-all-3.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hutool" type="462c0819:PsiDirectoryNode" />
               <item name="http" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -630,24 +516,25 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CollectionAndMap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\weui\js" />
-      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\weui\css" />
-      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\ueditor" />
-      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\neditor" />
-      <recent name="Y:\Java\SSM\cms\src\main\org\cms\utils\editor" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cms.handler" />
-      <recent name="cms.service" />
-      <recent name="cms.dao" />
-      <recent name="cms.core" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\weui" />
       <recent name="Y:\Java\SSM\cms\src\main\webapp\WEB-INF\resources\lib\neditor" />
       <recent name="Y:\Java\SSM\cms\src\main\webapp" />
       <recent name="Y:\Java\SSM\cms\src\main\webapp\WEB-INF" />
+      <recent name="Y:\Java\SSM\cms\src\main\org\cms\utils\editor" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WebBase.SpringMvc" />
+      <recent name="cms.handler" />
+      <recent name="cms.service" />
+      <recent name="cms.dao" />
+      <recent name="cms.core" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\weui\js" />
+      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\weui\css" />
+      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\ueditor" />
+      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\neditor" />
       <recent name="Y:\Java\SSM\cms\src\main\org\cms\utils\editor" />
     </key>
   </component>
@@ -756,9 +643,9 @@
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file id="Tomcat Manager" enabled="true" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="true" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="51999" />
@@ -873,12 +760,13 @@
       <workItem from="1511312804050" duration="14733000" />
       <workItem from="1511329031232" duration="4410000" />
       <workItem from="1511399634785" duration="1860000" />
-      <workItem from="1511401726893" duration="2518000" />
+      <workItem from="1511401726893" duration="7593000" />
+      <workItem from="1511415909473" duration="13361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63363000" />
+    <option name="totallyTimeSpent" value="81799000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -893,6 +781,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45" sideWeight="0.21695095" order="7" side_tool="true" content_ui="tabs" />
@@ -905,20 +794,19 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23294243" sideWeight="0.48686868" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23027718" sideWeight="0.48686868" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22334754" sideWeight="0.5131313" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6566667" sideWeight="0.78304905" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44444445" sideWeight="0.78304905" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -939,27 +827,48 @@
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/org/cms/controller/UserInfoController.java</url>
-          <line>79</line>
+          <url>file://$PROJECT_DIR$/src/main/org/cms/controller/UserInfoRestController.java</url>
+          <line>63</line>
           <properties />
           <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/org/wechat/controller/UserInfoRestController.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/org/wechat/controller/OauthRestController.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="44" />
+      <option name="time" value="53" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
-        <watch expression="request.getContextPath()" language="JAVA" />
-        <watch expression="request.getRequestURI()" language="JAVA" />
-        <watch expression="new String(m.getOriginalFilename().getBytes(), &quot;UTF-8&quot;)" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>obj.getString(&quot;openid&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getScheme()+&quot;://&quot;+ request.getServerName();//+request.getRequestURI();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getContextPath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>new String(m.getOriginalFilename().getBytes(), &quot;UTF-8&quot;)</expression-string>
         <language-id>JAVA</language-id>
@@ -991,17 +900,7 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>request.getContextPath()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>request.getRequestURI().replace(request.getContextPath()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>ServletContext context = session.getServletContext()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1015,44 +914,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/org/cms/utils/editor/upload/BinaryUploader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/neditor/neditor.all.min.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/neditor/themes/notadd/css/dialog.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/neditor/dialogs/emotion/emotion.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/neditor/dialogs/map/show.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/neditor/dialogs/map/map.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/neditor/dialogs/internal.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/ueditor/dialogs/map/map.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/ueditor/ueditor.all.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/ueditor/config.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/ueditor/neditor.config.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/neditor/_src/core/filterword.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/neditor/controller.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/neditor/neditor.config.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/org/cms/utils/editor/ActionEnter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/neditor/config.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/org/cms/utils/editor/upload/Uploader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/neditor/controller.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/neditor/neditor.all.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/neditor/neditor.config.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/ueditor/themes/default/css/ueditor.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -1116,13 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="1332" column="41" lean-forward="true" selection-start-line="1332" selection-start-column="41" selection-end-line="1332" selection-end-column="41" />
-          <folding>
-            <marker date="1470798380000" expanded="true" signature="44369:44384" ph="..." />
-            <marker date="1470798380000" expanded="true" signature="44441:44461" ph="..." />
-            <marker date="1470798380000" expanded="true" signature="82531:82547" ph="..." />
-            <marker date="1470798380000" expanded="true" signature="82592:82609" ph="..." />
-            <marker date="1470798380000" expanded="true" signature="419785:419822" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1169,14 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1206,7 +1052,7 @@
         <state relative-caret-position="323">
           <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <marker date="1511164596000" expanded="true" signature="115989:116195" ph="..." />
             <marker date="1511164596000" expanded="true" signature="116028:116177" ph="..." />
             <marker date="1511164596000" expanded="true" signature="148298:148484" ph="..." />
@@ -1233,8 +1079,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/weui/js/swiper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="3789" column="34" lean-forward="true" selection-start-line="3789" selection-start-column="34" selection-end-line="3789" selection-end-column="34" />
+        <state relative-caret-position="71991">
+          <caret line="3789" column="34" lean-forward="false" selection-start-line="3789" selection-start-column="34" selection-end-line="3789" selection-end-column="34" />
           <folding>
             <marker date="1511164596000" expanded="true" signature="176043:176850" ph="..." />
             <marker date="1511164596000" expanded="true" signature="176087:176832" ph="..." />
@@ -1247,11 +1093,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/cms/controller/UserInfoController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/org/cms/filter/servlet/FilterTest1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="73" column="20" lean-forward="true" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+        <state relative-caret-position="342">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/cms/interceptor/InterceptorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/cms/interceptor/InterceptorTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/cms/dao/UserInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar!/javax/servlet/http/HttpServletResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="76" column="9" lean-forward="false" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://X:/Program Files/Java/jdk1.8.0_144/src.zip!/java/net/URLEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="81" column="13" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/cms/utils/http/HttpHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/wechat/controller/WeChatControllerBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.1.RELEASE/spring-web-5.0.1.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding>
+            <marker date="1509698697408" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1509698697408" expanded="false" signature="162:753" ph="..." />
+            <marker date="1509698697408" expanded="false" signature="1161:1172" ph=" { " />
+            <marker date="1509698697408" expanded="false" signature="1193:1199" ph=" }" />
+            <marker date="1509698697408" expanded="false" signature="1262:1273" ph=" { " />
+            <marker date="1509698697408" expanded="false" signature="1293:1299" ph=" }" />
+            <marker date="1509698697408" expanded="true" signature="1421:1477" ph="{...}" />
+            <marker date="1509698697408" expanded="true" signature="1556:1615" ph="{...}" />
+            <marker date="1509698697408" expanded="true" signature="1725:1784" ph="{...}" />
+            <marker date="1509698697408" expanded="true" signature="1878:1949" ph="{...}" />
+            <marker date="1509698697408" expanded="true" signature="2113:2718" ph="{...}" />
+            <marker date="1509698697408" expanded="true" signature="2878:4227" ph="{...}" />
+            <marker date="1509698697408" expanded="true" signature="4306:4483" ph="{...}" />
+            <marker date="1509698697408" expanded="true" signature="4603:5061" ph="{...}" />
+            <marker date="1509698697408" expanded="true" signature="5126:6283" ph="{...}" />
+            <marker date="1509698697408" expanded="true" signature="6368:6964" ph="{...}" />
+            <marker date="1509698697408" expanded="true" signature="7047:7618" ph="{...}" />
+            <marker date="1509698697408" expanded="true" signature="7678:8011" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/cms/servlet/TestServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/xiaoleilu/hutool-all/3.2.0/hutool-all-3.2.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/xiaoleilu/hutool-all/3.2.1/hutool-all-3.2.1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="249" column="33" lean-forward="false" selection-start-line="249" selection-start-column="33" selection-end-line="249" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/xiaoleilu/hutool-all/3.2.1/hutool-all-3.2.1.jar!/com/xiaoleilu/hutool/http/HtmlUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/xiaoleilu/hutool-all/3.2.1/hutool-all-3.2.1.jar!/com/xiaoleilu/hutool/http/HttpUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/webbase/controller/RestControllerBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/webbase/controller/ControllerBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/wechat/controller/OauthRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/cms/controller/UserInfoRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/wechat/controller/UserInfoRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

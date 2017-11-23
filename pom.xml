@@ -250,6 +250,12 @@
       <version>20160810</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/com.xiaoleilu/hutool -->
+    <dependency>
+      <groupId>com.xiaoleilu</groupId>
+      <artifactId>hutool-all</artifactId>
+      <version>3.2.1</version>
+    </dependency>
 
   </dependencies>
   <build>

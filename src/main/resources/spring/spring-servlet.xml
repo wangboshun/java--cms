@@ -13,7 +13,9 @@
     <context:component-scan base-package="cms.core"></context:component-scan>
     <context:component-scan base-package="cms.dao"></context:component-scan>
     <context:component-scan base-package="cms.service"></context:component-scan>
-    <context:component-scan base-package="cms.controller"></context:component-scan>
+    <!--<context:component-scan base-package="cms.controller"></context:component-scan>-->
+    <!--<context:component-scan base-package="wechat.controller"></context:component-scan>-->
+    <context:component-scan base-package="WebBase.Controller"></context:component-scan>
 
     <!-- Spring MVC不处理静态资源 -->
     <mvc:default-servlet-handler/>
@@ -33,7 +35,8 @@
     </mvc:interceptors>
 
     <!--增加上传配置-->
-    <bean id="multipartResolver" class="org.springframework.web.multipart.support.StandardServletMultipartResolver"></bean>
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.support.StandardServletMultipartResolver"></bean>
 
     <!-- 视图解析器 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="internalResourceViewResolver">
