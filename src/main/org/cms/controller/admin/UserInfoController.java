@@ -1,13 +1,17 @@
-package cms.controller;
+package cms.controller.admin;
 
 import cms.core.UserInfo;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
-import webbase.controller.ControllerBase;
+import redis.clients.jedis.Jedis;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -15,12 +19,23 @@ import java.io.*;
 import java.util.Date;
 import java.util.List;
 
-public class UserInfoRestController extends ControllerBase {
+@Controller
+public class UserInfoController {
+
+    public static Logger log = LoggerFactory.getLogger(UserInfoController.class);
+
     @Autowired
     private cms.service.UserInfoService userinfoservice;
 
+    @Autowired
+    public Jedis redis;
+
+    @Autowired
+    public RedisTemplate redisTemplate;
+
     @RequestMapping("/test")
     public String test1(Model model) {
+
         log.debug("----------------------test1----------------------");
 
         redis.set("jedis---test", "12345");

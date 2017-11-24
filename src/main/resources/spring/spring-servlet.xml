@@ -13,15 +13,19 @@
     <context:component-scan base-package="cms.core"></context:component-scan>
     <context:component-scan base-package="cms.dao"></context:component-scan>
     <context:component-scan base-package="cms.service"></context:component-scan>
-    <!--<context:component-scan base-package="cms.controller"></context:component-scan>-->
-    <!--<context:component-scan base-package="wechat.controller"></context:component-scan>-->
-    <context:component-scan base-package="WebBase.Controller"></context:component-scan>
+    <context:component-scan base-package="cms.controller"></context:component-scan>
 
     <!-- Spring MVC不处理静态资源 -->
     <mvc:default-servlet-handler/>
 
-    <!-- 支持mvc注解驱动 -->
-    <mvc:annotation-driven/>
+    <!-- 支持mvc注解驱动 response返回中文 -->
+    <mvc:annotation-driven>
+        <mvc:message-converters register-defaults="true">
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <constructor-arg value="UTF-8"/>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
 
     <!--拦截器-->
     <mvc:interceptors>

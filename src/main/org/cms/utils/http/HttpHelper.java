@@ -12,13 +12,11 @@ public class HttpHelper {
     public static String Get(String getUrl) {
         StringBuffer sb = new StringBuffer();
         try {
-            InputStreamReader isr = null;
-            BufferedReader br = null;
             URL url = new URL(getUrl);
             URLConnection urlConnection = url.openConnection();
             urlConnection.setAllowUserInteraction(false);
-            isr = new InputStreamReader(url.openStream());
-            br = new BufferedReader(isr);
+            InputStreamReader isr = new InputStreamReader(url.openStream(), "UTF-8");
+            BufferedReader br = new BufferedReader(isr);
             String line;
             while ((line = br.readLine()) != null) {
                 sb.append(line);
@@ -47,8 +45,7 @@ public class HttpHelper {
             // 设置通用的请求属性
             conn.setRequestProperty("accept", "*/*");
             conn.setRequestProperty("connection", "Keep-Alive");
-            conn.setRequestProperty("user-agent",
-                    "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;SV1)");
+            conn.setRequestProperty("user-agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;SV1)");
             // 发送POST请求必须设置如下两行
             conn.setDoOutput(true);
             conn.setDoInput(true);
@@ -59,8 +56,7 @@ public class HttpHelper {
             // flush输出流的缓冲
             out.flush();
             // 定义BufferedReader输入流来读取URL的响应
-            in = new BufferedReader(
-                    new InputStreamReader(conn.getInputStream()));
+            in = new BufferedReader(new InputStreamReader(conn.getInputStream(), "UTF-8"));
             String line;
             while ((line = in.readLine()) != null) {
                 result += line;
