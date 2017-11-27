@@ -1,17 +1,14 @@
 package cms.controller.admin;
 
+import cms.controller.ControllerBase;
 import cms.core.UserInfo;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
-import redis.clients.jedis.Jedis;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -20,18 +17,10 @@ import java.util.Date;
 import java.util.List;
 
 @Controller
-public class UserInfoController {
-
-    public static Logger log = LoggerFactory.getLogger(UserInfoController.class);
+public class UserInfoController extends ControllerBase {
 
     @Autowired
     private cms.service.UserInfoService userinfoservice;
-
-    @Autowired
-    public Jedis redis;
-
-    @Autowired
-    public RedisTemplate redisTemplate;
 
     @RequestMapping("/test")
     public String test1(Model model) {

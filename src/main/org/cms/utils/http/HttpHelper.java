@@ -21,6 +21,8 @@ public class HttpHelper {
             while ((line = br.readLine()) != null) {
                 sb.append(line);
             }
+            br.close();
+            isr.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -62,7 +64,7 @@ public class HttpHelper {
                 result += line;
             }
         } catch (Exception e) {
-            System.out.println("发送 POST 请求出现异常！" + e);
+//            System.out.println("发送 POST 请求出现异常！" + e);
             e.printStackTrace();
         }
         //使用finally块来关闭输出流、输入流
