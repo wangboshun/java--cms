@@ -22,8 +22,6 @@ import static cms.utils.string.Format.StringFormat;
 @RequestMapping("/wechat/")
 public class MpMsgController extends ControllerBase {
 
-    private InputStream inputStream;
-
     private String server_data;
 
     private String signature;
@@ -37,8 +35,7 @@ public class MpMsgController extends ControllerBase {
     @RequestMapping(value = "service")
     public void ServiceCheck() throws Exception {
         response.setCharacterEncoding("UTF-8");
-
-        inputStream = request.getInputStream();
+        InputStream inputStream = request.getInputStream();
         server_data = IOUtils.toString(inputStream, "UTF-8");
         signature = request.getParameter("signature");
         timestamp = request.getParameter("timestamp");
@@ -50,15 +47,17 @@ public class MpMsgController extends ControllerBase {
         if (StrUtil.isEmpty(server_data))
             Check();
 
-        SendDetail(map);
-//        switch (map.get("MsgType").toString()) {
-//            case "text":
-//                SendTxtMsg(map);
-//                break;
-//            case "image":
-//                SendImageMsg(map);
-//                break;
-//        }
+        switch (map.get("MsgType").toString()) {
+            case "text":
+                SendTxtMsg(map);
+                break;
+            case "image":
+                SendImageMsg(map);
+                break;
+            case "other":
+                SendDetailMsg(map);
+                break;
+        }
     }
 
     //发送文字消息
@@ -96,7 +95,7 @@ public class MpMsgController extends ControllerBase {
         response.getWriter().write(xml);
     }
 
-    public void SendDetail(Map<String, Object> map) throws IOException {
+    public void SendDetailMsg(Map<String, Object> map) throws IOException {
 
         String str = "<xml>\n" +
                 "<ToUserName><![CDATA[{0}]]></ToUserName>\n" +
