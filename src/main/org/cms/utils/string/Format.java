@@ -2,7 +2,7 @@ package cms.utils.string;
 
 import java.text.MessageFormat;
 
-public class format {
+public class Format {
     public static String StringFormat(String str, Object[] obj) {
         return MessageFormat.format(str, obj);
     }

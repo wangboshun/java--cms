@@ -3,23 +3,21 @@ package cms.controller.wechat;
 import cms.controller.ControllerBase;
 import cms.statics.WeChatUrl;
 
-import org.springframework.stereotype.Controller;
 import cms.utils.http.HttpHelper;
 import org.json.JSONObject;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
 import java.net.URLEncoder;
 
-import static cms.utils.string.format.StringFormat;
+import static cms.utils.string.Format.StringFormat;
 
-@Controller
+@RestController
 @RequestMapping("/wechat/")
 public class MpOauthController extends ControllerBase {
 
     @RequestMapping("code")
-    @ResponseBody
     public void GetCode(String appid, String secret) throws IOException {
         redis.set("wechat_appid_" + appid, appid);
         redis.set("wechat_secret_" + appid, secret);
@@ -30,7 +28,6 @@ public class MpOauthController extends ControllerBase {
     }
 
     @RequestMapping("openid")
-    @ResponseBody
     public void GetOpenId(String appid, String code) throws IOException {
         String secret = redis.get("wechat_secret_" + appid);
         String url = StringFormat(WeChatUrl.GetOpenId, appid, secret, code);
