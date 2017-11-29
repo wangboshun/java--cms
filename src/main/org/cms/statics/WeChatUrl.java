@@ -10,4 +10,6 @@ public class WeChatUrl {
     public static final String GetUserInfo = "https://api.weixin.qq.com/cgi-bin/user/info?access_token={0}&openid={1}&lang=zh_CN";
 
     public static final String GetOpenId = "https://api.weixin.qq.com/sns/oauth2/access_token?appid={0}&secret={1}&code={2}&grant_type=authorization_code";
+
+    public static final String GetListUserInfo = "https://api.weixin.qq.com/cgi-bin/user/get?access_token={0}&next_openid={1}";
 }

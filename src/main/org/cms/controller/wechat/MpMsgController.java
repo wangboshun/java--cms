@@ -37,6 +37,8 @@ public class MpMsgController extends ControllerBase {
 
     private Map<String, Object> map;
 
+    private String xml;
+
     @RequestMapping(value = "service")
     public void ServiceCheck() throws Exception {
         response.setCharacterEncoding("UTF-8");
@@ -65,40 +67,35 @@ public class MpMsgController extends ControllerBase {
                 SendVideoMsg();
                 break;
         }
+        response.getWriter().write(xml);
     }
 
     //发送文字消息
     public void SendTxtMsg() throws IOException {
         TextMsg txt = (TextMsg) XmlUtil.xmlStrToBean(server_data, TextMsg.class);
-        String xml = WeChatXml.ToXml(txt);
+        xml = WeChatXml.ToXml(txt);
         System.out.println(xml);
-        response.getWriter().write(xml);
     }
 
     //发送图片消息
     public void SendImageMsg() throws IOException {
         ImageMsg img = (ImageMsg) XmlUtil.xmlStrToBean(server_data, ImageMsg.class);
-        String xml = WeChatXml.ToXml(img);
+        xml = WeChatXml.ToXml(img);
         System.out.println(xml);
-        response.getWriter().write(xml);
     }
 
     //发送语音消息
     public void SendVioceMsg() throws IOException {
         VioceMsg voice = (VioceMsg) XmlUtil.xmlStrToBean(server_data, VioceMsg.class);
-        String xml = WeChatXml.ToXml(voice);
+        xml = WeChatXml.ToXml(voice);
         System.out.println(xml);
-        response.getWriter().write(xml);
     }
 
     //发送视频消息
     public void SendVideoMsg() throws IOException {
-        VideoMsg voice = (VideoMsg) XmlUtil.xmlStrToBean(server_data, VideoMsg.class);
-        String xml = WeChatXml.ToXml(voice);
+        VideoMsg video = (VideoMsg) XmlUtil.xmlStrToBean(server_data, VideoMsg.class);
+        xml = WeChatXml.ToXml(video);
         System.out.println(xml);
-        response.getWriter().write(xml);
-        System.out.println(xml);
-        response.getWriter().write(xml);
     }
 
     public void SendDetailMsg(Map<String, Object> map) throws IOException {
@@ -131,10 +128,9 @@ public class MpMsgController extends ControllerBase {
                 "</Articles>\n" +
                 "</xml>";
 
-        String xml = StringFormat(str, new Object[]{map.get("FromUserName").toString(), map.get("ToUserName").toString(), new Date().getTime(), "3", "标题", "详情", "https://ss2.bdstatic.com/kfoZeXSm1A5BphGlnYG/skin/65.jpg", "http://www.qq.com"});
+        xml = StringFormat(str, new Object[]{map.get("FromUserName").toString(), map.get("ToUserName").toString(), new Date().getTime(), "3", "标题", "详情", "https://ss2.bdstatic.com/kfoZeXSm1A5BphGlnYG/skin/65.jpg", "http://www.qq.com"});
 
         System.out.println(xml);
-        response.getWriter().write(xml);
     }
 
     //服务器设置检查
