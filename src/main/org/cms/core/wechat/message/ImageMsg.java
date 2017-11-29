@@ -1,10 +1,10 @@
-package cms.core.wechat;
+package cms.core.wechat.message;
 
-public class ImageMsg extends BaseMessage {
+public class ImageMsg extends BaseMsg {
 
-    private String PicUrl;
+    public String PicUrl;
 
-    private String MediaId;
+    public String MediaId;
 
     public String getMediaId() {
         return MediaId;
@@ -21,6 +21,4 @@ public class ImageMsg extends BaseMessage {
     public void setPicUrl(String picurl) {
         PicUrl = picurl;
     }
-
-
 }

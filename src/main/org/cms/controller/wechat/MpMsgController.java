@@ -1,11 +1,14 @@
 package cms.controller.wechat;
 
 import cms.controller.ControllerBase;
-import cms.core.wechat.TextMsg;
+import cms.core.wechat.message.ImageMsg;
+import cms.core.wechat.message.TextMsg;
+import cms.core.wechat.message.VideoMsg;
+import cms.core.wechat.message.VioceMsg;
 import cms.utils.secret.wechat.AesException;
 import cms.utils.secret.wechat.SHA1;
+import cms.utils.xml.WeChatXml;
 import cms.utils.xml.XmlUtil;
-import com.thoughtworks.xstream.XStream;
 import com.xiaoleilu.hutool.util.StrUtil;
 import org.apache.commons.io.IOUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -32,6 +35,8 @@ public class MpMsgController extends ControllerBase {
 
     private String echostr;
 
+    private Map<String, Object> map;
+
     @RequestMapping(value = "service")
     public void ServiceCheck() throws Exception {
         response.setCharacterEncoding("UTF-8");
@@ -41,56 +46,57 @@ public class MpMsgController extends ControllerBase {
         timestamp = request.getParameter("timestamp");
         nonce = request.getParameter("nonce");
         echostr = request.getParameter("echostr");
-
-        Map<String, Object> map = XmlUtil.xmlStrToMap(server_data);
+        map = XmlUtil.xmlStrToMap(server_data);
 
         if (StrUtil.isEmpty(server_data))
             Check();
 
         switch (map.get("MsgType").toString()) {
             case "text":
-                SendTxtMsg(map);
+                SendTxtMsg();
                 break;
             case "image":
-                SendImageMsg(map);
+                SendImageMsg();
                 break;
-            case "other":
-                SendDetailMsg(map);
+            case "voice":
+                SendVioceMsg();
+                break;
+            case "video":
+                SendVideoMsg();
                 break;
         }
     }
 
     //发送文字消息
-    public void SendTxtMsg(Map<String, Object> map) throws IOException {
-        TextMsg txt = new TextMsg();
-        txt.setToUserName(map.get("FromUserName").toString());
-        txt.setFromUserName(map.get("ToUserName").toString());
-        txt.setCreateTime(new Date().getTime());
-        txt.setMsgType("text");
-        txt.setContent(map.get("Content").toString());
-        XStream xStream = new XStream();
-        xStream.alias("xml", txt.getClass());
-
-        String xml = xStream.toXML(txt);
-
+    public void SendTxtMsg() throws IOException {
+        TextMsg txt = (TextMsg) XmlUtil.xmlStrToBean(server_data, TextMsg.class);
+        String xml = WeChatXml.ToXml(txt);
         System.out.println(xml);
         response.getWriter().write(xml);
     }
 
     //发送图片消息
-    public void SendImageMsg(Map<String, Object> map) throws IOException {
+    public void SendImageMsg() throws IOException {
+        ImageMsg img = (ImageMsg) XmlUtil.xmlStrToBean(server_data, ImageMsg.class);
+        String xml = WeChatXml.ToXml(img);
+        System.out.println(xml);
+        response.getWriter().write(xml);
+    }
 
-        String str = "<xml>\n" +
-                "<ToUserName><![CDATA[{0}]]></ToUserName>\n" +
-                "<FromUserName><![CDATA[{1}]]></FromUserName>\n" +
-                "<CreateTime>{2}</CreateTime>\n" +
-                "<MsgType><![CDATA[image]]></MsgType>\n" +
-                "<Image>\n" +
-                "<MediaId><![CDATA[{3}]]></MediaId>\n" +
-                "</Image>\n" +
-                "</xml>";
-        String xml = StringFormat(str, new Object[]{map.get("FromUserName").toString(), map.get("ToUserName").toString(), new Date().getTime(), map.get("MediaId").toString()});
+    //发送语音消息
+    public void SendVioceMsg() throws IOException {
+        VioceMsg voice = (VioceMsg) XmlUtil.xmlStrToBean(server_data, VioceMsg.class);
+        String xml = WeChatXml.ToXml(voice);
+        System.out.println(xml);
+        response.getWriter().write(xml);
+    }
 
+    //发送视频消息
+    public void SendVideoMsg() throws IOException {
+        VideoMsg voice = (VideoMsg) XmlUtil.xmlStrToBean(server_data, VideoMsg.class);
+        String xml = WeChatXml.ToXml(voice);
+        System.out.println(xml);
+        response.getWriter().write(xml);
         System.out.println(xml);
         response.getWriter().write(xml);
     }

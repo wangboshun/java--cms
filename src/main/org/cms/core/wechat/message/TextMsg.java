@@ -1,8 +1,8 @@
-package cms.core.wechat;
+package cms.core.wechat.message;
 
-public class TextMsg extends BaseMessage {
+public class TextMsg extends BaseMsg {
 
-    private String Content;
+    public String Content;
 
     public String getContent() {
         return Content;

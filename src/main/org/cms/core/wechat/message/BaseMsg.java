@@ -1,20 +1,20 @@
-package cms.core.wechat;
+package cms.core.wechat.message;
 
-public class BaseMessage {
+public class BaseMsg {
     /**
      * 接收方帐号（收到的OpenID）
      */
-    private String ToUserName;
+    public String ToUserName;
     /**
      * 开发者微信号
      */
-    private String FromUserName;
+    public String FromUserName;
 
-    private long CreateTime;
+    public long CreateTime;
 
-    private String MsgType;
+    public String MsgType;
 
-    private String MsgId;
+    public String MsgId;
 
     public String getToUserName() {
         return ToUserName;
