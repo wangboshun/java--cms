@@ -7,41 +7,194 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc7fd890-b6f1-419d-86eb-f5a61cd6730f" name="Default" comment="add html">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/org/cms/controller/admin/Article/ArticleController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/org/cms/controller/admin/IndexController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/welcome.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/black/jqadmin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/blue/jqadmin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/demo.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/demo_fontclass.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/demo_symbol.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/demo_unicode.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/iconfont.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/iconfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/iconfont.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/iconfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/iconfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/iconfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/gray/jqadmin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/main.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/images/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/images/code.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/images/icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/images/image.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/images/progress.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/images/success.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/images/upload.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/jqbind.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/jqcitys.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/jqelem.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/jqform.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/jqmenu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/jqtags.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/myform.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/tabmenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/org/cms/controller/blog/IndexController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/blog/index.jsp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/welcome.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/black/jqadmin.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/blue/jqadmin.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/demo.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/demo_fontclass.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/demo_symbol.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/demo_unicode.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/iconfont.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/iconfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/iconfont.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/iconfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/iconfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/font/iconfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/gray/jqadmin.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/css/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/images/bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/images/code.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/images/icons.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/images/image.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/images/progress.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/images/success.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/images/upload.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/jqbind.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/jqcitys.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/jqelem.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/jqform.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/jqmenu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/jqtags.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/myform.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/tabmenu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/jquery/jquery.min.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/css/images.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/css/login.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/css/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/css/message.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/css/news.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/css/user.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/images/alipay.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/images/code.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/images/face.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/images/userface1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/images/userface2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/images/userface3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/images/userface4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/images/userface5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/images/wechat.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/js/bodyTab.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/js/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/js/leftNav.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/js/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/404.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/img/images.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/img/images.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/links/linksAdd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/links/linksAdd.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/links/linksList.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/links/linksList.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/login/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/login/login.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/login/login.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/main.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/message/message.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/message/message.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/message/messageReply.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/news/newsAdd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/news/newsAdd.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/news/newsList.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/news/newsList.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/systemParameter/systemParameter.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/systemParameter/systemParameter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/user/addUser.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/user/addUser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/user/address.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/user/allUsers.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/user/allUsers.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/user/changePwd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/user/user.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui-extension/page/user/userInfo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/css/layui.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/css/layui.mobile.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/css/modules/code.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/css/modules/laydate/default/laydate.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/css/modules/layer/default/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/css/modules/layer/default/layer.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/font/iconfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/font/iconfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/font/iconfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/font/iconfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/0.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/10.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/11.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/12.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/13.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/14.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/15.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/16.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/17.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/18.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/19.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/20.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/21.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/22.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/23.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/24.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/25.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/26.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/27.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/28.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/29.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/30.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/31.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/33.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/34.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/35.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/36.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/37.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/38.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/39.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/40.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/41.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/42.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/43.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/44.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/45.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/46.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/47.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/48.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/49.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/5.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/50.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/51.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/52.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/53.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/54.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/55.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/56.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/57.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/58.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/59.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/60.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/61.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/62.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/63.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/64.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/65.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/66.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/67.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/68.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/69.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/7.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/70.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/71.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/8.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/images/face/9.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/code.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/element.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/flow.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/form.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/laydate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/layedit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/layer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/laypage.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/laytpl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/mobile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/table.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/tree.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/upload.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/util.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/layui.all.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/layui/layui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/lib/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,61 +222,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="myform.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/myform.js">
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/org/cms/controller/admin/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="38">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInfoController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/org/cms/controller/admin/UserInfoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-630">
-              <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ControllerBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/org/cms/controller/ControllerBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArticleController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/org/cms/controller/admin/Article/ArticleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layui.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/layui/css/layui.css">
+      <file leaf-file-name="layui.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/layui/layui.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="1" column="30177" lean-forward="false" selection-start-line="1" selection-start-column="30177" selection-end-line="1" selection-end-column="30177" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jquery/jquery.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+            <state relative-caret-position="19">
+              <caret line="1" column="51" lean-forward="true" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -131,14 +270,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jqtags.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/jqtags.js">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/blog/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#i#0;n#a#0;n#dd#1;n#dl#0;n#li#5;n#ul#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#0;n#dd#2;n#dl#0;n#li#5;n#ul#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#dl#0;n#li#5;n#ul#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#dd#3;n#dl#0;n#li#5;n#ul#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#40959#40965#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/org/cms/controller/blog/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/layfly/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="445" column="34" lean-forward="true" selection-start-line="445" selection-start-column="34" selection-end-line="445" selection-end-column="34" />
+              <folding>
+                <marker date="1512291624000" expanded="true" signature="2357:2366" ph="..." />
+                <marker date="1512291624000" expanded="true" signature="2666:2675" ph="..." />
+                <marker date="1512291624000" expanded="true" signature="4090:4103" ph="..." />
+                <marker date="1512291624000" expanded="true" signature="4520:4528" ph="&amp;##xe67c;" />
+                <marker date="1512291624000" expanded="true" signature="4621:4640" ph="..." />
+                <marker date="1512291624000" expanded="true" signature="7248:7260" ph="..." />
+                <marker date="1512291624000" expanded="true" signature="11930:11944" ph="..." />
+                <marker date="1512291624000" expanded="true" signature="12493:12508" ph="..." />
+                <marker date="1512291624000" expanded="true" signature="13714:13730" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="npm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/bootstrap/js/npm.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1510057107035" expanded="true" signature="2003:2011" ph="&amp;##xe6a1;" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/bootstrap/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,21 +357,15 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>param</find>
-      <find>write</find>
-      <find>face.jpg</find>
-      <find>jpg</find>
       <find>bodytab</find>
       <find>bodyTab</find>
       <find>layui.config</find>
       <find>bod</find>
       <find>bodytab.js</find>
       <find>element()</find>
-      <find>.js</find>
       <find>html</find>
       <find>welc</find>
       <find>index</find>
-      <find>index.js</find>
       <find>jqbind</find>
       <find>echart</find>
       <find>main.</find>
@@ -180,11 +376,17 @@
       <find>enu-list-t</find>
       <find>we</find>
       <find>edit</find>
-      <find>.css</find>
       <find>添加</find>
       <find>myform</find>
       <find>content</find>
       <find>heigth</find>
+      <find>iconfont</find>
+      <find>.css</find>
+      <find>jpg</find>
+      <find>png</find>
+      <find>jsindex.js</find>
+      <find>index.js</find>
+      <find>.js</find>
     </findStrings>
     <replaceStrings>
       <replace>cms.utils.editor</replace>
@@ -201,9 +403,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/org/cms/utils/secret/wechat/ByteGroup.java" />
-        <option value="$PROJECT_DIR$/src/main/org/cms/utils/secret/wechat/MessageUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/org/cms/utils/secret/wechat/CoreService.java" />
         <option value="$PROJECT_DIR$/src/main/org/cms/utils/secret/wechat/WXBizMsgCrypt.java" />
         <option value="$PROJECT_DIR$/src/main/org/cms/core/wechat/TxtMessage.java" />
         <option value="$PROJECT_DIR$/src/main/org/cms/core/wechat/TextMsg1.java" />
@@ -246,12 +445,15 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/welcome.jsp" />
         <option value="$PROJECT_DIR$/src/main/org/cms/controller/admin/Article/ArticleController.java" />
         <option value="$PROJECT_DIR$/src/main/org/cms/controller/admin/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/article/article.jsp" />
         <option value="$PROJECT_DIR$/src/main/org/cms/controller/admin/UserInfoController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/common.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/article/article-edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/myform.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/community/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/org/cms/controller/blog/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/blog/index.jsp" />
       </list>
     </option>
   </component>
@@ -319,7 +521,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -380,8 +582,7 @@
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="Article" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
@@ -389,14 +590,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
@@ -430,7 +623,7 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jqmodules" type="462c0819:PsiDirectoryNode" />
+              <item name="layfly" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
@@ -440,29 +633,8 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jqmodules" type="462c0819:PsiDirectoryNode" />
+              <item name="layfly" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
@@ -512,11 +684,21 @@
               <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -530,12 +712,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CollectionAndMap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Y:\Java\SSM\cms\src\main\webapp\WEB-INF\view\admin" />
+      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\adminlte" />
+      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\jqmodules" />
       <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\jqmodules\js" />
-      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\weui\js" />
-      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\weui\css" />
-      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\ueditor" />
-      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\neditor" />
+      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\layui-extension" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cms.core.wechat" />
@@ -544,12 +726,12 @@
       <recent name="cms.service" />
       <recent name="cms.dao" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\jqmodules" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\jqmodules\js" />
-      <recent name="Y:\Java\SSM\cms\src\main\webapp\WEB-INF\view\admin" />
-      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\layui-extension" />
-      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\weui" />
+      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\weui\js" />
+      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\weui\css" />
+      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\ueditor" />
+      <recent name="Y:\Java\SSM\cms\src\main\webapp\resources\lib\neditor" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -791,6 +973,10 @@
       <workItem from="1512003902976" duration="11340000" />
       <workItem from="1512019716779" duration="9145000" />
       <workItem from="1512029338237" duration="7327000" />
+      <workItem from="1512090325755" duration="594000" />
+      <workItem from="1512091033738" duration="587000" />
+      <workItem from="1512615828822" duration="1382000" />
+      <workItem from="1512623467716" duration="4499000" />
     </task>
     <task id="LOCAL-00001" summary="update code">
       <created>1511863575911</created>
@@ -824,9 +1010,9 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210803000" />
+    <option name="totallyTimeSpent" value="217865000" />
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -838,11 +1024,11 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.68336886" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.6934968" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39555556" sideWeight="0.22014925" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4422222" sideWeight="0.22334754" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45" sideWeight="0.21695095" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -852,8 +1038,8 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2750533" sideWeight="0.48222223" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28784648" sideWeight="0.48222223" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2468017" sideWeight="0.5177778" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -861,7 +1047,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25333333" sideWeight="0.7798507" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4422222" sideWeight="0.77665246" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1015,45 +1201,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/jqform.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/jqmenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/jqbind.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/tabmenu.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/echart.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/ueditor/dialogs/charts/charts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="292" column="51" lean-forward="true" selection-start-line="292" selection-start-column="51" selection-end-line="292" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/member.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/product.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/role.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/cat-list.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/ueditor/ueditor.all.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="14930" column="8" lean-forward="true" selection-start-line="14930" selection-start-column="8" selection-end-line="14930" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,7 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,7 +1257,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-475">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,7 +1264,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,7 +1278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="626">
           <caret line="409" column="0" lean-forward="true" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,11 +1285,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="406" column="27" lean-forward="true" selection-start-line="406" selection-start-column="27" selection-end-line="406" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/welcome.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/ueditor/controller.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -1155,30 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/cms/controller/admin/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="122" lean-forward="true" selection-start-line="18" selection-start-column="122" selection-end-line="18" selection-end-column="122" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="187" selection-end-column="97" />
           <folding />
         </state>
       </provider>
@@ -1203,108 +1324,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="1" column="1202" lean-forward="false" selection-start-line="1" selection-start-column="1202" selection-end-line="1" selection-end-column="1202" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/index.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/tabmenu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/jqtags.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1510057107035" expanded="true" signature="2003:2011" ph="&amp;##xe6a1;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/version.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jquery/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/layui/css/layui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="1" column="30177" lean-forward="false" selection-start-line="1" selection-start-column="30177" selection-end-line="1" selection-end-column="30177" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/article/article.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="81" column="63" lean-forward="false" selection-start-line="81" selection-start-column="63" selection-end-line="81" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/article/article-edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="100" column="112" lean-forward="true" selection-start-line="100" selection-start-column="112" selection-end-line="100" selection-end-column="112" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/version.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/article/article.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/common.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/article/article-edit.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/myform.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
+        <state relative-caret-position="0">
           <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/cms/controller/admin/UserInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1317,11 +1356,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/cms/controller/admin/Article/ArticleController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jquery/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/jqmodules/js/jqtags.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/cms/controller/admin/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="187" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-421">
+          <caret line="33" column="58" lean-forward="true" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/bootstrap/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/layui/css/layui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="30177" lean-forward="false" selection-start-line="1" selection-start-column="30177" selection-end-line="1" selection-end-column="30177" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/layui/lay/modules/laydate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="1" column="3760" lean-forward="false" selection-start-line="1" selection-start-column="3760" selection-end-line="1" selection-end-column="3760" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/cms/controller/admin/Article/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/adminlte/js/pages/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/adminlte/css/skins/_all-skins.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/layui/layui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="51" lean-forward="true" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/cms/controller/admin/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/cms/controller/blog/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/lib/layfly/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="445" column="34" lean-forward="true" selection-start-line="445" selection-start-column="34" selection-end-line="445" selection-end-column="34" />
+          <folding>
+            <marker date="1512291624000" expanded="true" signature="2357:2366" ph="..." />
+            <marker date="1512291624000" expanded="true" signature="2666:2675" ph="..." />
+            <marker date="1512291624000" expanded="true" signature="4090:4103" ph="..." />
+            <marker date="1512291624000" expanded="true" signature="4520:4528" ph="&amp;##xe67c;" />
+            <marker date="1512291624000" expanded="true" signature="4621:4640" ph="..." />
+            <marker date="1512291624000" expanded="true" signature="7248:7260" ph="..." />
+            <marker date="1512291624000" expanded="true" signature="11930:11944" ph="..." />
+            <marker date="1512291624000" expanded="true" signature="12493:12508" ph="..." />
+            <marker date="1512291624000" expanded="true" signature="13714:13730" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/blog/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#0;n#dd#1;n#dl#0;n#li#5;n#ul#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#dd#2;n#dl#0;n#li#5;n#ul#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#dl#0;n#li#5;n#ul#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#dd#3;n#dl#0;n#li#5;n#ul#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#40959#40965#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
